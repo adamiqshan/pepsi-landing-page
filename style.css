@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+section{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    padding: 100px;
+    background: #0062eb;
+    font-family: 'Oswald', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header .logo{
+    max-width: 80px;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+    
+}
+
+header ul li a{
+    margin-left: 40px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.content .textbox{
+    max-width: 600px;
+}
+
+.content .textbox h2{
+    font-size: 3.5em;
+    line-height: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.content .textbox p {
+   margin-top: 20px;
+   font-weight: 300;
+}
+
+.content .textbox a{
+    display: inline-block;
+    color: #111;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: #fff;
+    border-radius: 40px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.content .imgbox{
+    margin-top: 50px;
+    padding-right: 50px;
+}
+
+.siblings{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+
+.siblings li{
+    list-style: none;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.siblings li:hover{
+    transform: translateY(-15px);
+}
+
+.siblings li > * {
+    max-width: 40px;
+}
+
+.social{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social li{
+    list-style: none;
+}
+
+.social li a{
+    display: inline-block;
+    transform: scale(0.6);
+    margin: 5px 0;
+    filter: invert(1);
+}

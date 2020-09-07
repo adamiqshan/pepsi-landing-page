@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;556;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pepsi</title>
+</head>
+
+<body>
+    <section>
+        <header>
+            <a href="#"><img src="./assets/logo.png" alt="pepsi logo" class='logo'></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contat us</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>All your <br>favorite flavors.<br>All right here.</h2>
+                <p>Pepsi. Diet Pepsi. Pepsi Zero Sugar. The gang’s all here. Compare flavors, get nutritional facts and
+                    check out ingredients for all our Pepsi products. Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Quaerat voluptates ipsa commodi cupiditate.
+                </p>
+                <a href="#">View all products</a>
+            </div>
+            <div class="imgbox">
+                <img src="./assets/pepsi001.png" alt="tin pepsi" class="pepsi">
+            </div>
+        </div>
+        <ul class="siblings">
+            <li><img src="./assets/pepsi001.png" onclick="imgSelect('./assets/pepsi001.png'); backColor('#0062be');">
+            </li>
+            <li><img src="./assets/pepsi002.png" onclick="imgSelect('./assets/pepsi002.png'); backColor('#e60c2c');">
+            </li>
+            <li><img src="./assets/pepsi003.png" onclick="imgSelect('./assets/pepsi003.png'); backColor('#1e1e1e');">
+            </li>
+        </ul>
+        <ul class="social">
+            <li><a href="#"><img src="./assets/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="./assets/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="./assets/instagram.png" alt=""></a></li>
+        </ul>
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>
